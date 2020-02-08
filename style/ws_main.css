@@ -1,0 +1,142 @@
+.site-top .lower nav {
+  display: block !important;
+}
+.author-profile i,
+.post-like a,
+.post-share .show-share,
+.sub-text,
+.we-info a,
+span.sitename,
+.post-more i:hover,
+#pagination a:hover,
+.post-content a:hover,
+.float-content i:hover {
+  color: #54b7f8;
+}
+.feature i,
+.download,
+.navigator i:hover,
+.links ul li:before,
+.ar-time i,
+span.ar-circle,
+.object,
+.comment .comment-reply-link,
+.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after {
+  background: #54b7f8;
+}
+::-webkit-scrollbar-thumb {
+  background: #54b7f8;
+}
+.download,
+.navigator i:hover,
+.link-title,
+.links ul li:hover,
+#pagination a:hover,
+.comment-respond input[type='submit']:hover {
+  border-color: #54b7f8;
+}
+.entry-content a:hover,
+.site-info a:hover,
+.comment h4 a,
+#comments-navi a.prev,
+#comments-navi a.next,
+.comment h4 a:hover,
+.site-top ul li a:hover,
+.entry-title a:hover,
+#archives-temp h3,
+span.page-numbers.current,
+.sorry li a:hover,
+.site-title a:hover,
+i.iconfont.js-toggle-search.iconsearch:hover,
+.comment-respond input[type='submit']:hover {
+  color: #54b7f8;
+}
+.comments .comments-main {
+  display: block !important;
+}
+.comments .comments-hidden {
+  display: none !important;
+  background-position: center center;
+  background-attachment: inherit;
+}
+@media (max-width: 860px) {
+  .openNav {
+    transition-duration: 0.5s;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    display: block;
+    background: rgba(0,0,0,0.1);
+  }
+  #mo-nav .m-avatar {
+    padding: 30px 0 0px;
+  }
+  .wsqq {
+    margin-left: 10px;
+  }
+  .wsqq:first-child {
+    margin-left: 0;
+  }
+  #mo-nav ul li {
+    padding: 6px 0;
+  }
+  #mo-nav li ul {
+    width: unset;
+  }
+  #mo-nav li ul li {
+    padding: 6px 28px;
+  }
+  .ins-search-container {
+    height: 82%;
+  }
+}
+.site-top .lower-cantiner {
+  min-width: 900px;
+}
+.site-top .lower {
+  left: -25%;
+}
+@media (max-width: 1200px) {
+  .site-top .lower {
+    width: 80px;
+    float: right;
+    position: absolute;
+    top: 70px;
+    left: unset;
+    background: #fff;
+    border-radius: 12px;
+  }
+}
+@media (max-width: 860px) {
+  #centerbg {
+    height: 300px;
+    background-attachment: scroll;
+  }
+  .top-social_v2 img {
+    width: 30px;
+  }
+}
+::-webkit-scrollbar-thumb {
+  background: #e78170;
+}
+#bar {
+  background: #70d1aa !important;
+}
+#nprogress .bar {
+  background: #70d1aa;
+}
+#menu-new li a:hover {
+  color: #33f;
+}
+.site-top ul li a:after {
+  background-color: #54b7f8;
+}
+.logolink .sakurasono:hover {
+  background-color: #54b7f8 !important;
+}
+.lower li ul {
+  right: -38px;
+  width: 121px;
+}
