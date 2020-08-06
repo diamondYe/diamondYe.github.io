@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">video | diamondYe</title>
+  <title itemprop="name">免费CDN:jsDeliver+github使用方法 | diamondYe</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -402,132 +402,182 @@
   </div>
 </header>
 
-        <div class="pattern-center-blank"></div>
-  
-  <div id="content" class="site-content">
-    <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/diamondye/cdn@1.1/img/71.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.1/img/71.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      免费CDN:jsDeliver+github使用方法</h1>
+      <p class="entry-census">
+        <span>
+          <a href="hojun.cn">
+            <img src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.1/img/shou/icon.jpg.webp">
+          </a>
+        </span>
+        <span>
+          <a href="hojun.cn">Diamond</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-2-11<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
+    </header>
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h1 id="免费CDN-jsDeliver-github使用方法"><a href="#免费CDN-jsDeliver-github使用方法" class="headerlink" title="免费CDN:jsDeliver+github使用方法"></a>免费CDN:jsDeliver+github使用方法</h1><h3 id="什么是CDN？"><a href="#什么是CDN？" class="headerlink" title="什么是CDN？"></a><strong>什么是CDN？</strong></h3><blockquote>
+<p>CDN全称是Content Delivery Network，即内容分发网络也称为内容传送网络。</p>
+</blockquote>
+<p><strong>那它有什么功能吗？</strong></p>
+<p><strong>归纳起来，CDN具有以下功能：</strong></p>
+<ul>
+<li>减少带宽，提供服务器加速。</li>
+<li>服务商能使用Web Cache技术在本地缓存用户访问过的Web页面和对象，实现相同对象的访问无须占用主干的出口带宽，并提高用户访问因特网页面的相应时间的需求。</li>
+<li>能克服网站分布不均的问题，并且能降低网站自身建设和维护成本。</li>
+<li>降低“通信风暴”的影响，提高网络访问的稳定性。</li>
+</ul>
+<p>==特别在搭建个人博客的时候，由于国内加载github的资源比较慢，使用CDN可以有效的优化网页的打开速度。==</p>
+<p><strong>既然有那么多好处，我们要怎么去使用它呢？</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.2/img/cdnuse/1.JPG"></p>
+<blockquote>
+<p>图中的jsDelivr 是一个免费开源的 CDN 解决方案，用于帮助开发者和站长。包含 JavaScript 库、jQuery 插件、CSS 框架、字体等等 Web 上常用的静态资源。</p>
+</blockquote>
+<h3 id="NPM"><a href="#NPM" class="headerlink" title="NPM"></a>NPM</h3><p><a href="https://www.npmjs.cn/" target="_blank" rel="noopener">深入了解</a></p>
+<blockquote>
+<p>NPM是JavaScript的包管理器，可将代码发布到github上用于代码资源的共享。来自各大洲的开源软件开发者使用 NPM互相分享和借鉴。包的结构使您能够轻松跟踪依赖项和版本。</p>
+</blockquote>
+<p><strong>NPM 的思路大概是这样的：</strong></p>
+<ul>
+<li>买个服务器作为代码仓库（registry），在里面放所有需要被共享的代码</li>
+<li>发邮件通知 jQuery、Bootstrap、Underscore 作者使用 npm publish 把代码提交到 registry 上，分别取名 jquery、bootstrap 和 underscore（注意大小写）</li>
+<li>社区里的其他人如果想使用这些代码，就把 jquery、bootstrap 和 underscore 写到 package.json 里，然后运行 npm install ，npm 就会帮他们下载代码</li>
+<li>下载完的代码出现在 node_modules 目录里，可以随意使用了。</li>
+<li>这些可以被使用的代码被叫做「包」（package），这就是 NPM 名字的由来：Node Package(包) Manager(管理器)。</li>
+<li>github：gitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名gitHub。</li>
+</ul>
+<p><img src="\images\cdnuse\2.jpg"></p>
+<h3 id="jsDeliver-github使用方法"><a href="#jsDeliver-github使用方法" class="headerlink" title="jsDeliver+github使用方法"></a>jsDeliver+github使用方法</h3><h4 id="第一步：新建github仓库"><a href="#第一步：新建github仓库" class="headerlink" title="第一步：新建github仓库"></a>第一步：新建github仓库</h4><p><img src="\images\cdnuse\3.jpg"></p>
+<p><strong>点击右上角位于头像旁边的+号，点击New repository新建仓库</strong></p>
+<p><img src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.2/img/cdnuse/4.JPG"></p>
+<p>==在Repository name 的地方填cdn；==</p>
+<p>接着在本地电脑克隆上图仓库（前提配置好本地git环境和ssh</p>
+<p>选一个位置，创建你的cdn文件夹，创建好文件夹后右击，然后选择GIT Bash Here（这里如果为安装过git的是显示不出来的，建议先去安装）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.2/img/cdnuse/5.JPG"></p>
+<p>你的用户名这里写你github的用户名，其他不变。这里弄好了以后，你会发现文件夹里面多了几个文件，证明你创建完成。</p>
+<h4 id="第二步：上传需要的资源"><a href="#第二步：上传需要的资源" class="headerlink" title="第二步：上传需要的资源"></a>第二步：上传需要的资源</h4><p>复制需要的静态资源到本地git仓库中（就是之前我说的有新文件产生的那个地方），提交到github仓库上。</p>
+<p>还是先点一下<strong>GIT Bash Here</strong></p>
+<p>然后打命令</p>
+<pre><code class="c++">git status   //查看状态
+
+git add .  //添加
+
+git commit -m &quot;update&quot;  //这里是写备注，到时候再github上面能看到
+
+git push
+</code></pre>
+<p>打完每条命令之后等一会儿，等它加载的一些文字滚完之后又回到可以打字的状态下，在继续输入命令。</p>
+<p>有时候可能会卡住，没关系==ctrl+C==可以推出当前命令，重新打一下命令就好了。</p>
+<p>（ps：jsDeliver不支持加载超过20M的资源，所以一些视频最好压缩到20M以下）</p>
+<h4 id="第三步：发布仓库"><a href="#第三步：发布仓库" class="headerlink" title="第三步：发布仓库"></a>第三步：发布仓库</h4><p><strong>点击release发布</strong></p>
+<p><img src="\images\cdnuse\6.jpg"></p>
+<p><strong>发布版本号为1.0（自定义）</strong></p>
+<p><img src="\images\cdnuse\7.jpg"></p>
+<h4 id="第四步：通过jsDeliver引用资源"><a href="#第四步：通过jsDeliver引用资源" class="headerlink" title="第四步：通过jsDeliver引用资源"></a>第四步：通过jsDeliver引用资源</h4><p><img src="\images\cdnuse\8.jpg"></p>
+<p><a href="https://baijiahao.baidu.com/s?id=1623013726378332873&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">参考文章</a></p>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="/img/custom/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="/img/custom/donate/WeChanQR.jpg"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2020/02/09/first/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.1/img/47.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.1/img/47.jpg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                我的第一篇博客</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
+<div id="vcomments"></div>
 <script>
-  var videos = [
-    {
-      img: 'https://lain.bgm.tv/pic/cover/l/0e/1e/218971_2y351.jpg',
-      title: '朝花夕誓——于离别之朝束起约定之花',
-      status: '已追完',
-      progress: 100,
-      jp: 'さよならの朝に約束の花をかざろう',
-      time: '放送时间: 2018-02-24 SUN.',
-      desc: ' 住在远离尘嚣的土地，一边将每天的事情编织成名为希比欧的布，一边静静生活的伊欧夫人民。在15岁左右外表就停止成长，拥有数百年寿命的他们，被称为“离别的一族”，并被视为活着的传说。没有双亲的伊欧夫少女玛奇亚，过着被伙伴包围的平稳日子，却总感觉“孤身一人”。他们的这种日常，一瞬间就崩溃消失。追求伊欧夫的长寿之血，梅萨蒂军乘坐着名为雷纳特的古代兽发动了进攻。在绝望与混乱之中，伊欧夫的第一美女蕾莉亚被梅萨蒂带走，而玛奇亚暗恋的少年克里姆也失踪了。玛奇亚虽然总算逃脱了，却失去了伙伴和归去之地……。'
-    },
-    {
-      img : 'https://lain.bgm.tv/pic/cover/l/0e/1e/218971_2y351.jpg',
-      title: '朝花夕誓——于离别之朝束起约定之花',
-      status: '已追完',
-      progress: 100,
-      jp: 'さよならの朝に約束の花をかざろう',
-      time: '2018-02-24 SUN.',
-      desc: ' 住在远离尘嚣的土地，一边将每天的事情编织成名为希比欧的布，一边静静生活的伊欧夫人民。在15岁左右外表就停止成长，拥有数百年寿命的他们，被称为“离别的一族”，并被视为活着的传说。没有双亲的伊欧夫少女玛奇亚，过着被伙伴包围的平稳日子，却总感觉“孤身一人”。他们的这种日常，一瞬间就崩溃消失。追求伊欧夫的长寿之血，梅萨蒂军乘坐着名为雷纳特的古代兽发动了进攻。在绝望与混乱之中，伊欧夫的第一美女蕾莉亚被梅萨蒂带走，而玛奇亚暗恋的少年克里姆也失踪了。玛奇亚虽然总算逃脱了，却失去了伙伴和归去之地……。'
-    }
-  ]
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz",
+        appKey: "mgOpfzbkHYqU92CV4IDlAUHQ",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
 </script>
 
-
-  <style>.should-ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:95%;}.should-ellipsis-full{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:100%;}.should-ellipsis i{position:absolute;right:24px;}.grey-text{color:#9e9e9e !important}.grey-text.text-darken-4{color:#212121 !important}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}img{border-style:none}progress{display:inline-block;vertical-align:baseline}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}ul:not(.browser-default){padding-left:0;list-style-type:none}ul:not(.browser-default)>li{list-style-type:none}.card{-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2)}.hoverable{-webkit-transition:-webkit-box-shadow .25s;transition:-webkit-box-shadow .25s;transition:box-shadow .25s;transition:box-shadow .25s,-webkit-box-shadow .25s}.hoverable:hover{-webkit-box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}i{line-height:inherit}i.right{float:right;margin-left:15px}.bangumi .right{float:right !important}.material-icons{text-rendering:optimizeLegibility;-webkit-font-feature-settings:'liga';-moz-font-feature-settings:'liga';font-feature-settings:'liga'}.row{margin-left:auto;margin-right:auto;margin-bottom:20px}.row:after{content:"";display:table;clear:both}.row .col{float:left;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 .75rem;min-height:1px}.row .col.s12{width:100%;margin-left:auto;left:auto;right:auto}@media only screen and (min-width:601px){.row .col.m6{width:50%;margin-left:auto;left:auto;right:auto}}html{line-height:1.5;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;font-weight:normal;color:rgba(0,0,0,0.87)}@media only screen and (min-width:0){html{font-size:14px}}@media only screen and (min-width:992px){html{font-size:14.5px}}@media only screen and (min-width:1200px){html{font-size:15px}}.card{position:relative;margin:.5rem 0 1rem 0;background-color:#fff;-webkit-transition:-webkit-box-shadow .25s;transition:-webkit-box-shadow .25s;transition:box-shadow .25s;transition:box-shadow .25s,-webkit-box-shadow .25s;border-radius:2px}.card .card-title{font-size:24px;font-weight:300}.card .card-title.activator{cursor:pointer}.card .card-image{position:relative}.card .card-image img{display:block;border-radius:2px 2px 0 0;position:relative;left:0;right:0;top:0;bottom:0;width:100%}.card .card-content{padding:24px;border-radius:0 0 2px 2px}.card .card-content p{margin:0}.card .card-content .card-title{display:block;line-height:32px;margin-bottom:8px}.card .card-content .card-title i{line-height:32px}.card .card-reveal{padding:24px;position:absolute;background-color:#fff;width:100%;overflow-y:auto;left:0;top:100%;height:100%;z-index:3;display:none}.card .card-reveal .card-title{cursor:pointer;display:block}.waves-effect{position:relative;cursor:pointer;display:inline-block;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;vertical-align:middle;z-index:1;-webkit-transition:.3s ease-out;transition:.3s ease-out}.waves-effect img{position:relative;z-index:-1}.waves-block{display:block}::-webkit-input-placeholder{color:#d1d1d1}::-moz-placeholder{color:#d1d1d1}:-ms-input-placeholder{color:#d1d1d1}::-ms-input-placeholder{color:#d1d1d1}[type="radio"]:not(:checked){position:absolute;opacity:0;pointer-events:none}[type="radio"]:not(:checked)+span{position:relative;padding-left:35px;cursor:pointer;display:inline-block;height:25px;line-height:25px;font-size:1rem;-webkit-transition:.28s ease;transition:.28s ease;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}[type="radio"]:not(:checked)+span:before,[type="radio"]:not(:checked)+span:after{border-radius:50%}[type="radio"]:not(:checked)+span:before,[type="radio"]:not(:checked)+span:after{border:2px solid #5a5a5a}[type="radio"]:not(:checked)+span:after{-webkit-transform:scale(0);transform:scale(0)}[type="checkbox"]:not(:checked){position:absolute;opacity:0;pointer-events:none}[type="checkbox"]:not(:checked):disabled+span:not(.lever):before{border:none;background-color:rgba(0,0,0,0.42)}[type="checkbox"].filled-in:not(:checked)+span:not(.lever):before{width:0;height:0;border:3px solid transparent;left:6px;top:10px;-webkit-transform:rotateZ(37deg);transform:rotateZ(37deg);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}[type="checkbox"].filled-in:not(:checked)+span:not(.lever):after{height:20px;width:20px;background-color:transparent;border:2px solid #5a5a5a;top:0px;z-index:0}input[type=checkbox]:not(:disabled) ~ .lever:active:before,input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before{-webkit-transform:scale(2.4);transform:scale(2.4);background-color:rgba(0,0,0,0.08)}input[type=range].focused:focus:not(.active)::-webkit-slider-thumb{-webkit-box-shadow:0 0 0 10px rgba(38,166,154,0.26);box-shadow:0 0 0 10px rgba(38,166,154,0.26)}input[type=range].focused:focus:not(.active)::-moz-range-thumb{box-shadow:0 0 0 10px rgba(38,166,154,0.26)}input[type=range].focused:focus:not(.active)::-ms-thumb{box-shadow:0 0 0 10px rgba(38,166,154,0.26)}
-  </style>
-  <header class="page-header"><h1 class="cat-title">番组计划</h1> <span class="cat-des"><p>这里将是永远的回忆</p> </span></header>
-  <div class="bangumi">
-    <div class="row" id="rootRow">
-    </div>
-  </div>
-  <script>
-  window.onload = function(){
-    videos.forEach(function(video, i){
-      $('#rootRow').append(`<div class="col s12 m6" id="bangumi-218971">
-        <div class="card hoverable" style="overflow: visible;">
-          <div class="card-image waves-effect waves-block waves-light">
-            <div class="activator itempic lazyload" style="background-image: url(${video.img});" data-src="${video.img}">
-            </div>
-          </div>
-          <div class="card-content">
-            <div class="card-title should-ellipsis activator grey-text text-darken-4">
-              ${video.title}<i class="fa fa-commenting-o right"></i>
-            </div>
-            <p class="should-ellipsis-full">
-            ${video.jp}</p>
-            <ul class="skill-list">
-              <li class="skill">
-                <div>
-                ${video.status}</div>
-                <progress class="skill-1" max="100" value="${video.progress}">
-                </progress>
-              </li>
-            </ul>
-          </div>
-          <div class="card-reveal" style="display: none; transform: translateY(0%);">
-            <span class="card-title grey-text text-darken-4">
-              ${video.title}<i class="fa fa-close right"></i>
-            </span>
-            <span>
-              ${video.jp}<br>
-            </span>
-            <span>
-              放送时间: ${video.time}<span>
-                <p>${video.desc}</p>
-                <ul class="skill-list">
-                  <li class="skill">
-                    <div>
-                    ${video.status}</div>
-                    <progress class="skill-1" max="100" value="${video.progress}">
-                    </progress>
-                  </li>
-                </ul>
-              </span>
-            </span>
-          </div>
-        </div>
-      </div>`)
-    })
-  }
-  </script>
-
-      <!-- .entry-content -->
-      
-      <div class="single-reward">
-        <div class="reward-open">赏
-          <div class="reward-main">
-            <ul class="reward-row">
-              <li class="alipay-code"><img src="/img/custom/donate/AliPayQR.jpg"></li>
-              <li class="wechat-code"><img src="/img/custom/donate/WeChanQR.jpg"></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-      <footer class="post-footer">
-        <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-        <div class="post-tags">
-        </div>
-        <div class="post-share">
-          <div class="social-share sharehidden share-component"></div>
-          <i class="iconfont show-share icon-forward"></i>
-        </div>
-      </footer><!-- .entry-footer -->
-    </article>
-      <!-- #post-## -->
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-          <a href="/about/" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.1/img/shou/icon.jpg.webp" itemprop="image" alt="diamondYe" height="70" width="70"></a>
+          <a href="hojun.cn" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/diamondye/cdn@1.1/img/shou/icon.jpg.webp" itemprop="image" alt="Diamond" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://diamondye.github.io" itemprop="url" rel="author">diamondYe</a>
+            <a href="hojun.cn" itemprop="url" rel="author">Diamond</a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>你也曾是银河的浪漫子民，孤身坠入地球，等不到群星来信..</p>
+        <p><i class="iconfont icon-write"></i>Diamond</p>
       </section>
+    </main><!-- #main -->
   </div><!-- #primary -->
 </div>
+
+
+
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>

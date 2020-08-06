@@ -49,7 +49,7 @@ span.page-numbers.current,
 .site-title a:hover,
 i.iconfont.js-toggle-search.iconsearch:hover,
 .comment-respond input[type='submit']:hover {
-  color: #54b7f8;
+  color: #ff99d0;
 }
 .comments .comments-main {
   display: block !important;
@@ -100,7 +100,7 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 }
 @media (max-width: 1200px) {
   .site-top .lower {
-    width: 80px;
+    width: 100px;
     float: right;
     position: absolute;
     top: 70px;
@@ -119,22 +119,22 @@ i.iconfont.js-toggle-search.iconsearch:hover,
   }
 }
 ::-webkit-scrollbar-thumb {
-  background: #e78170;
+  background: #ff83c6 !important;
 }
 #bar {
-  background: #70d1aa !important;
+  background: #ff99d0;
 }
 #nprogress .bar {
-  background: #70d1aa;
+  background: #ff83c6;
 }
 #menu-new li a:hover {
-  color: #33f;
+  color: #ff50ab;
 }
 .site-top ul li a:after {
-  background-color: #54b7f8;
+  background-color: #ff99d0;
 }
 .logolink .sakurasono:hover {
-  background-color: #54b7f8 !important;
+  background-color: #ff99d0 !important;
 }
 .lower li ul {
   right: -38px;

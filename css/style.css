@@ -742,7 +742,7 @@ h1 {
     margin:.67em 0
 }
 mark {
-    background:#ff0;
+    background:rgb(255, 65, 144);
     color:#000
 }
 small {
@@ -863,7 +863,7 @@ blockquote:before {
     position:absolute;
     top:-25px;
     left:12px;
-    color:orange;
+    color:rgb(255, 41, 158);
     font-family:FontAwesome
 }
 blockquote:after {
@@ -872,7 +872,7 @@ blockquote:after {
     position:absolute;
     bottom:-25px;
     right:-5px;
-    color:orange;
+    color:rgb(255, 46, 175);
     font-family:FontAwesome
 }
 blockquote p {
@@ -1021,14 +1021,14 @@ a {
     transition:color .2s ease-out,border .2s ease-out,opacity .2s ease-out
 }
 a:hover,a:focus,a:active {
-    color:orange
+    color:rgb(255, 65, 154)
 }
 a:focus {
     outline:0
 }
 a:hover,a:active {
     outline:0;
-    color:orange
+    color:rgb(255, 49, 169)
 }
 .site-top {
     width:100%;
@@ -1383,7 +1383,7 @@ a:hover,a:active {
     font-weight:400
 }
 .site-title a:hover {
-    color:orange
+    color:rgb(255, 79, 182)
 }
 .site-title img {
     height:40px;
@@ -1471,7 +1471,7 @@ a:hover,a:active {
     float:left;
     margin:0 13px;
     position:relative;
-    -webkit-transition:all 1s ease
+    -webkit-transition:all 1s ease;
 }
 .site-top ul li a {
     padding:10px 0;
@@ -1479,7 +1479,7 @@ a:hover,a:active {
     color:#666
 }
 .site-top ul li a:hover {
-    color:orange
+    color:rgb(255, 52, 187)
 }
 .site-top ul li a:after {
     content:"";
@@ -1487,7 +1487,7 @@ a:hover,a:active {
     position:absolute;
     bottom:-16px;
     height:6px;
-    background-color:#fe9600;
+    background-color:#ff34a4;
     width:100%;
     max-width:0;
     transition:max-width .25s ease-in-out
@@ -1498,7 +1498,7 @@ a:hover,a:active {
     position:absolute;
     bottom:-21px;
     height:6px;
-    background-color:#fe9600;
+    background-color:#ff4ab4;
     width:100%;
     max-width:0;
     transition:max-width .25s ease-in-out
@@ -1670,7 +1670,7 @@ a:hover,a:active {
     color:#504e4e
 }
 .entry-title a:hover {
-    color:orange
+    color:rgb(255, 66, 161)
 }
 .p-time {
     position:absolute;
@@ -2006,8 +2006,8 @@ i.iconfont.hotpost {
 }
 .navigator i:hover {
     color:#fff;
-    background:orange;
-    border:2px solid orange;
+    background:rgb(255, 57, 166);
+    border:2px solid rgb(255, 88, 171);
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
     -o-transition:all .2s ease-in-out;
@@ -2029,7 +2029,7 @@ i.iconfont.hotpost {
     color:#b9b9b9
 }
 .site-info a:hover {
-    color:orange
+    color:rgb(255, 64, 159)
 }
 .footertext p {
     margin-bottom:8px
@@ -2093,7 +2093,7 @@ i.iconfont.hotpost {
 .entry-content h2:after {
     content:"\00B6";
     position:absolute;
-    color:#ff6d6d;
+    color:#ff6daa;
     font-family:'Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif;
     padding-left:6px;
     font-size:1.03em
@@ -2101,7 +2101,7 @@ i.iconfont.hotpost {
 .serif .entry-content h2:after {
     content:"\00B6";
     position:absolute;
-    color:#ff6d6d;
+    color:#ff6daa;
     font-family:'Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif;
     padding-left:6px;
     font-size:1.13em
@@ -2110,23 +2110,23 @@ i.iconfont.hotpost {
     content:"#";
     left:0;
     position:absolute;
-    color:#ff6d6d
+    color:#ff6dbd
 }
 .entry-content h4:after {
     content:"▌";
     left:0;
     position:absolute;
-    color:#ff6d6d
+    color:#ff6dc2
 }
 .entry-content h5:after {
     content:"♯";
     left:0;
     position:absolute;
-    color:#ff6d6d
+    color:#ff6dc2
 }
 .entry-content code {
-    background:rgba(254,250,199,1);
-    color:#e67474;
+    background:rgb(254, 199, 222);
+    color:#e674b6;
     word-break:break-word;
     font-family:'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
     padding:2px;
@@ -2134,12 +2134,12 @@ i.iconfont.hotpost {
     border-radius:5px
 }
 .entry-content a {
-    color:#e67474;
+    color:#e674a9;
     text-decoration:underline dotted rgba(0,0,0,.1)
 }
 .entry-content a:hover {
-    color:orange;
-    text-decoration:underline orange
+    color:rgb(255, 94, 148);
+    text-decoration:underline rgb(255, 88, 158)
 }
 h1.entry-title {
     font-size:24px;
@@ -2153,14 +2153,14 @@ h1.entry-title {
 }
 .entry-header h1.entry-title:before {
     content:" {";
-    color:#f8ba0b;
+    color:#ff5099;
     font-size:1.5em;
     margin-right:6px;
     vertical-align:sub
 }
 .entry-header h1.entry-title:after {
     content:"}";
-    color:#f8ba0b;
+    color:#ff5898;
     font-size:1.5em;
     margin-left:6px;
     vertical-align:sub
@@ -2319,7 +2319,7 @@ h1.page-title.mb- {
     margin-right:5px
 }
 .post-tags a:hover {
-    color:orange
+    color:rgb(255, 66, 161)
 }
 .post-tags i {
     margin-right:5px
@@ -2379,7 +2379,7 @@ h1.page-title.mb- {
     margin-right:10px
 }
 .post-share ul li a:hover {
-    color:orange
+    color:rgb(255, 70, 156)
 }
 .post-share .show-share {
     margin-left:10px;
@@ -2845,7 +2845,7 @@ h3#comments-list-title {
     margin:auto
 }
 .butterBar-message {
-    background:#fe9600;
+    background:#ff47a3;
     color:#fff;
     border-bottom-left-radius:4px;
     border-bottom-right-radius:4px;
@@ -3018,7 +3018,7 @@ h1.works-title {
     font-style:italic;
     font-size:20px;
     font-weight:400;
-    color:orange;
+    color:pink;
     margin-left:30px;
     margin-top:50px
 }
@@ -3044,7 +3044,7 @@ span.time {
 .ar-time i {
     padding:10px;
     border-radius:100px;
-    background:orange;
+    background:rgb(255, 98, 208);
     color:#fff
 }
 .ar-time {
@@ -3070,7 +3070,7 @@ span.time {
 span.ar-circle {
     height:10px;
     width:10px;
-    background:orange;
+    background:rgb(255, 93, 193);
     display:inline-block;
     position:absolute;
     left:-5px;
@@ -3152,7 +3152,7 @@ header.page-header {
     -ms-transform:rotate(360deg)
 }
 span.sitename {
-    color:orange;
+    color:rgb(255, 81, 154);
     padding-bottom:10px;
     display:block;
     -webkit-transition:all .3s;
@@ -3183,11 +3183,11 @@ span.sitename {
 }
 .link-title span.fake-title {
     padding-left:10px;
-    border-left:3px solid orange
+    border-left:3px solid rgb(255, 54, 148)
 }
 .links ul li:before {
     content:"";
-    background-color:orange;
+    background-color:rgb(255, 21, 130);
     -webkit-transform:skew(45deg,0);
     transform:skew(45deg,0);
     width:0;
@@ -3201,7 +3201,7 @@ span.sitename {
 }
 .links ul li:hover {
     color:#27323a;
-    border:1px solid orange
+    border:1px solid rgb(255, 21, 150)
 }
 .links ul li:hover:before {
     width:180%
@@ -3473,12 +3473,12 @@ a.page-numbers {
     vertical-align:-4px
 }
 .comment h4 a {
-    color:#e2684a;
+    color:#e24a89;
     font-size:15px;
     font-weight:600
 }
 .comment h4 a:hover {
-    color:orange
+    color:rgb(255, 0, 128)
 }
 .comment hr {
     clear:both;
@@ -3631,9 +3631,9 @@ a.page-numbers {
     text-shadow:none
 }
 .comment-respond input[type='submit']:hover {
-    border:1px solid #fe9600;
+    border:1px solid #fe007f;
     background:none !important;
-    color:#fe9600
+    color:#fe008c
 }
 .comment-respond input[type='submit']:hover {
     background:#5aa738
@@ -3727,7 +3727,7 @@ a.page-numbers {
     line-height:1
 }
 .siren-checkbox-radio:checked+.siren-checkbox-radioInput:after {
-    background-color:#fe9600;
+    background-color:#fe007f;
     border-radius:100%;
     content:"";
     display:block;
@@ -4067,7 +4067,7 @@ li.feature-2 {
     color:#2980b9
 }
 .pomegranate {
-    color:#c0392b
+    color:#c02b5d
 }
 .green {
     color:#16a085
@@ -4356,7 +4356,7 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:10px 0
 }
 .sorry li a:hover {
-    color:orange
+    color:rgb(255, 0, 128)
 }
 .sorry-inner {
     padding:20px;
@@ -4371,21 +4371,21 @@ i.iconfont.js-toggle-search.iconsearch {
 .err-button.back a {
     padding:10px 30px;
     margin:0 10px;
-    border:1px solid orange;
-    color:orange;
+    border:1px solid rgb(255, 0, 128);
+    color:rgb(255, 0, 128);
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:50px
 }
 #gohome {
-    background:orange;
+    background:rgb(255, 0, 128);
     color:#fff
 }
 .err-button.back a:hover {
-    -webkit-box-shadow:0 0 4px rgba(255,165,0,.85);
-    -moz-box-shadow:0 0 4px rgba(255,165,0,.85);
-    -o-box-shadow:0 0 4px rgba(255,165,0,.85);
-    box-shadow:0 0 4px rgba(255,165,0,.85)
+    -webkit-box-shadow:0 0 4px rgba(255, 0, 128, 0.85);
+    -moz-box-shadow:0 0 4px rgba(255, 0, 157, 0.85);
+    -o-box-shadow:0 0 4px rgba(255, 0, 140, 0.85);
+    box-shadow:0 0 4px rgba(255, 0, 144, 0.85)
 }
 .infinite-scroll .posts-navigation,.infinite-scroll.neverending .site-footer {
     display:none
@@ -4491,7 +4491,7 @@ embed,iframe,object {
     position:absolute
 }
 #nprogress .bar {
-    background:orange;
+    background:rgb(255, 0, 144);
     position:fixed;
     z-index:1031;
     top:0;
@@ -4505,7 +4505,7 @@ embed,iframe,object {
     right:0;
     width:100px;
     height:100%;
-    box-shadow:0 0 10px orange,0 0 5px orange;
+    box-shadow:0 0 10px rgb(255, 0, 128),0 0 5px rgb(255, 0, 128);
     opacity:1;
     -webkit-transform:rotate(3deg) translate(0px,-4px);
     -ms-transform:rotate(3deg) translate(0px,-4px);
@@ -4527,8 +4527,8 @@ embed,iframe,object {
     height:20px;
     box-sizing:border-box;
     border:solid 3px transparent;
-    border-top-color:orange;
-    border-left-color:orange;
+    border-top-color:rgb(255, 0, 128);
+    border-left-color:rgb(255, 0, 128);
     border-radius:50%;
     -webkit-animation:nprogress-spinner 400ms linear infinite;
     animation:nprogress-spinner 400ms linear infinite
@@ -4616,10 +4616,10 @@ i.iconfont.down {
     display:inline-block
 }
 #pagination a:hover {
-    -webkit-box-shadow:0 0 4px rgba(255,165,0,.85);
-    -moz-box-shadow:0 0 4px rgba(255,165,0,.85);
-    -o-box-shadow:0 0 4px rgba(255,165,0,.85);
-    box-shadow:0 0 4px rgba(255,165,0,.85)
+    -webkit-box-shadow:0 0 4px rgb(255, 0, 128);
+    -moz-box-shadow:0 0 4px rgb(255, 0, 128);
+    -o-box-shadow:0 0 4px rgb(255, 0, 128);
+    box-shadow:0 0 4px rgb(255, 0, 128);
 }
 #pagination a {
     padding:13px 35px;
@@ -4632,8 +4632,8 @@ i.iconfont.down {
     font-size:15px
 }
 #pagination a:hover {
-    border:1px solid orange;
-    color:orange
+    border:1px solid rgb(255, 0, 128);
+    color:rgb(255, 0, 128);
 }
 #pagination .loading {
     background:url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg");
@@ -4796,7 +4796,7 @@ i.iconfont.down {
         display:none
     }
     .links ul li:hover .sitename {
-        color:orange
+        color:rgb(255, 0, 128);
     }
     .links ul li:hover .linkdes {
         color:#949494;
@@ -5009,7 +5009,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 #mo-nav ul li a:hover {
     cursor:pointer;
-    color:orange
+    color:rgb(255, 0, 128);
 }
 .we-content li {
     height:250px
@@ -5804,11 +5804,11 @@ button.botui-actions-buttons-button {
     width:auto
 }
 .logolink a:hover .sakurasono {
-    background-color:orange;
+    background-color:rgb(255, 0, 140);
     color:#fff
 }
 .logolink a:hover .shironeko,.logolink a:hover rt {
-    color:orange
+    color:rgb(255, 0, 128);
 }
 .logolink.moe-mashiro a {
     color:#464646;
@@ -6191,19 +6191,19 @@ button.botui-actions-buttons-button {
 }
 @media(min-width:861px) {
     .hide-live2d {
-    background-color:orange;
+    background-color:rgb(255, 0, 128);
     bottom:156px;
     visibility:visible;
     min-height:38.75px
 }
 .switch-live2d {
-    background-color:#f7bb4d;
+    background-color:#f74da2;
     bottom:105px;
     visibility:visible;
     min-height:51px
 }
 .save-live2d {
-    background-color:#eed099;
+    background-color:#ee99cb;
     bottom:66px;
     visibility:visible;
     min-height:39.3px
@@ -6389,14 +6389,14 @@ to {
 }
 .glitch:before {
     left:-1px;
-    text-shadow:1px 0 #ff3f1a
+    text-shadow:1px 0 #ff1aa0
 }
 .glitch:after {
     left:1px;
     text-shadow:-1px 0 #00a7e0
 }
 .glitch:hover:before {
-    text-shadow:4px 0 #ff3f1a;
+    text-shadow:4px 0 #ff1a79;
     animation:glitch-loop-1 .8s infinite ease-in-out alternate-reverse
 }
 .glitch:hover:after {
@@ -6558,10 +6558,10 @@ progress {
     width:0
 }
 .skill-1::-webkit-progress-value {
-    background:#ff9e2c
+    background:#ff2cae
 }
 .skill-1::-moz-progress-bar {
-    background:#ff9e2c
+    background:#ff2c96
 }
 @-webkit-keyframes bar-fill {
     0% {
@@ -6599,7 +6599,7 @@ progress {
     color:#000
 }
 .art .art-content #archives a:hover {
-    color:orange
+    color:rgb(255, 0, 128)
 }
 .art .art-content #archives .al_year {
     padding-left:100px
